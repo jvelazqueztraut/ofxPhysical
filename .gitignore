@@ -1,0 +1,46 @@
+# src is the official directory
+!src/
+example/*
+!example/src
+
+# ignore bin folders' contents, except data folder therein
+bin/*
+!bin/data/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+#Compiled app
+*.app
+
+#Codeblocks files
+*.workspace
+*.cbp
+*.layout
+
+#XCode files
+*.plist
+*.xcconfig
+*.xcodeproj
+
+#Misc files
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.mov
+.DS_Store
+
+# don't ignore the .gitignore file
+!.gitignore
