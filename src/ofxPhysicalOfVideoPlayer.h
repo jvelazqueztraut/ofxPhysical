@@ -13,7 +13,7 @@
 class ofxPhysicalOfVideoPlayer : public ofxPhysicalObject {
     
 public:
-    ~ofxPhysicalVideo(){};
+    ~ofxPhysicalOfVideoPlayer(){};
     
     void loadMovie(string name){
         movie.loadMovie(name);

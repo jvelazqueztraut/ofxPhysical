@@ -2,6 +2,10 @@
 
 #include "ofMain.h"
 
+#include "ofxPhysicalOfImage.h"
+#include "ofxPhysicalOfVideoPlayer.h"
+#include "ofxPhysicalOfFbo.h"
+
 class testApp : public ofBaseApp{
 
 	public:

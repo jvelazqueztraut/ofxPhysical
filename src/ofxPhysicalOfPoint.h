@@ -55,6 +55,3 @@ class ofxPhysicalOfPoint : public ofxPhysical{
 
 
 };
-
-			
-#endif

@@ -55,6 +55,3 @@ class ofxPhysicalOfColor : public ofxPhysical {
 		ofColor 		targetTempColor_;
 	
 };
-
-			
-#endif

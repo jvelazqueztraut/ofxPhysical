@@ -13,7 +13,7 @@
 class ofxPhysicalOfImage : public ofxPhysicalObject {
     
 public:
-    ~ofxPhysicalImage(){};
+    ~ofxPhysicalOfImage(){};
     
     void loadImage(string file){
         image.loadImage(file);

@@ -12,7 +12,7 @@
 
 class ofxPhysicalOfFbo : public ofxPhysicalObject {
 public:
-    ~ofxPhysicalFBO(){};
+    ~ofxPhysicalOfFbo(){};
     
     void setup(int w, int h){
         fbo.allocate(w,h);
